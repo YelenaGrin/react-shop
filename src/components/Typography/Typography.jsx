@@ -1,8 +1,6 @@
 import React from 'react';
 import withStyles from 'react-jss';
 
-
-
 export default withStyles({
 	root: {
 		fontFamily: 'arial',
@@ -14,7 +12,7 @@ export default withStyles({
 	children,
 	classes
 }) => (
-	<span className={classes.root + ' ' + className}>
+	<span className={classes.root +' '+ className}>
 		{children}
 	</span>
 ));

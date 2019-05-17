@@ -7,6 +7,7 @@ export default withStyles({
 		padding: 6,
 		border: 'none',
 		cursor: 'pointer',
+        position: 'relative',
 		backgroundColor: 'transparent'
 	} 
 })(({

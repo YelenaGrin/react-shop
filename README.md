@@ -1,7 +1,7 @@
 # react-shop
 
 ## Pages:
- - index
+    - index
 		- header
 			- cart
 		- slider

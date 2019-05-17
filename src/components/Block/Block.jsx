@@ -11,9 +11,12 @@ export default withStyles({
 })(({ 
 	children,
 	className = '',
+    onClick = () => {},
 	classes
 }) => (
-	<div className={classes.root +' '+ className}>
+	<div
+        onClick={onClick} 
+        className={classes.root +' '+ className}>
 		{children}
 	</div>
 ));

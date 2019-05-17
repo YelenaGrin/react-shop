@@ -11,6 +11,5 @@ export default withStyles({
 	className = '',
 	classes
 }) => (
-	<i className={classes.root + ' fas fa-' +''+ iconName +' '+ className}>
-	</i>
+	<i className={classes.root +' fas fa-'+ iconName +' '+ className}></i>
 ));
