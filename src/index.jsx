@@ -8,11 +8,13 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import { ThemeProvider } from 'react-jss';
 import Loadable from 'react-loadable';
 
+import 'static/fontawesome-pro-5.7.2/css/all.min.css';
+
 //import IndexPage from 'pages/IndexPage'; //т.к. используем Loadable
 //import ProductPage from 'pages/ProductPage';
 
 const theme = {
-	
+	 
 };
 
 const store = createStore();
